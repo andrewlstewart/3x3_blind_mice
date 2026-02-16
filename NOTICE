@@ -1,0 +1,46 @@
+NOTICES AND ATTRIBUTION
+=======================
+
+3x3 Blind Mice (ThreeBlindCubers)
+Copyright (C) 2025-2026 Andrew Stewart
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+------------------------------------------------------------------------
+
+This project includes or is derived from the following third-party works:
+
+1. Min2Phase — Rubik's Cube Two-Phase Solver
+   Copyright (C) 2015 Shuang Chen
+   License: GNU General Public License v3.0
+   Source: https://github.com/cs0x7f/min2phase
+   Files: app/src/main/java/cs/min2phase/
+
+2. CSTimer — Professional Rubik's Cube Speedsolving Timer
+   Copyright (C) cs0x7f
+   License: GNU General Public License v3.0
+   Source: https://github.com/cs0x7f/cstimer
+   Files derived from CSTimer's moyu32cube.js:
+     - app/src/main/java/com/example/threeblindcubers/data/bluetooth/MoyuCrypto.kt
+       (AES-128-ECB encryption/decryption scheme for Moyu smart cubes)
+     - app/src/main/java/com/example/threeblindcubers/data/bluetooth/MoyuCubeServiceImpl.kt
+       (BLE protocol handling, move parsing, face order)
+
+3. Bouncy Castle Cryptography Library
+   Copyright (C) 2000-2021 The Legion of the Bouncy Castle Inc.
+   License: MIT License
+   Source: https://www.bouncycastle.org/
+   Used for: AES-128-ECB cipher operations
+
+All other code is original work by Andrew Stewart, licensed under GPL v3.
