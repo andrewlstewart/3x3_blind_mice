@@ -1,18 +1,41 @@
-*.iml
-.gradle
-/local.properties
-/.idea/
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+build/
+
+# Local configuration (SDK path, signing credentials)
 local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+output-metadata.json
+
+# Keystore files
 *.jks
+*.keystore
+
+# Build outputs
 *.apk
 *.aab
-.kotlin
-/backup_sceneview
+
+# OS files
+.DS_Store
+*.log
+
+# Kotlin compiler cache
+.kotlin/
+
+# Google Services
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Project-specific
+/backup_sceneview/
 logo*.png
 PROGRESS.zip
 MVP.zip
