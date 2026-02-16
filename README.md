@@ -1,4 +1,4 @@
-# Three Blind Cubers
+# 3x3 Blind Mice
 
 [![Android CI](https://github.com/andrewlstewart/3x3_blind_mice/actions/workflows/android-ci.yml/badge.svg)](https://github.com/andrewlstewart/3x3_blind_mice/actions/workflows/android-ci.yml)
 
