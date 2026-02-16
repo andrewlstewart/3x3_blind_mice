@@ -7,7 +7,7 @@
 
 3x3 Blind Mice ("the App") is an open-source Android application for blindfolded Rubik's cube solving with optional Bluetooth smart cube support. The App is provided "as is" with no warranties of any kind.
 
-The source code is publicly available at [GitHub](https://github.com/) and can be independently audited.
+The source code is publicly available at [GitHub](https://github.com/andrewlstewart/3x3_blind_mice) and can be independently audited.
 
 ## Information Collection
 
