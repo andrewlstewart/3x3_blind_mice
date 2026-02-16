@@ -1,5 +1,7 @@
 # Three Blind Cubers
 
+[![Android CI](https://github.com/andrewlstewart/3x3_blind_mice/actions/workflows/android-ci.yml/badge.svg)](https://github.com/andrewlstewart/3x3_blind_mice/actions/workflows/android-ci.yml)
+
 An Android app for **blindfolded (BLD) Rubik's cube solving** with a Bluetooth smart cube. Connects to a Moyu smart cube via BLE, tracks moves in real-time, times memorization and execution phases separately, and computes Old Pochmann memo sequences automatically.
 
 ## Features
