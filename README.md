@@ -28,13 +28,6 @@ When a scramble is generated, the app computes the **Old Pochmann letter-pair se
 - Real-time move tracking with 5-bit move encoding
 - Cube state synchronization and facelet parsing
 
-### Other Features
-- 2D cube state visualization (net layout)
-- Solve history with Room database persistence
-- Settings sheet with Bluetooth device management
-- Debug tools for development testing
-- Screen stays on during solves
-
 ## Architecture
 
 The project follows **Clean Architecture** with MVVM:
@@ -125,18 +118,6 @@ app/src/main/java/com/example/threeblindcubers/
 - **OldPochmannSolverTest** (18 tests) - OP memo tracing: solved cube, twisted corners, buffer exclusion, parity, formatting
 - **CubeStateTrackerTest** - Facelet state tracking, move application, Kociemba numbering
 - **CubeVisualizationMappingTest** - Cube net layout mapping
-
-### Manual Testing
-See [TESTING.md](TESTING.md) for a full manual testing guide covering Bluetooth permissions, scramble generation, database operations, and cube connectivity.
-
-## Documentation
-
-| File | Description |
-|------|-------------|
-| [CLAUDE.md](CLAUDE.md) | AI development guide and project conventions |
-| [TESTING.md](TESTING.md) | Manual testing checklist and guide |
-| [BLUETOOTH_CONNECTION.md](BLUETOOTH_CONNECTION.md) | Complete Moyu BLE protocol reference (reverse-engineered) |
-| [PROGRESS.md](PROGRESS.md) | Implementation progress and roadmap |
 
 ## License
 
