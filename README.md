@@ -4,6 +4,17 @@
 
 An Android app for **blindfolded (BLD) Rubik's cube solving** with a Bluetooth smart cube. Connects to a Moyu smart cube via BLE, tracks moves in real-time, times memorization and execution phases separately, and computes Old Pochmann memo sequences automatically.
 
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/389383d7-0a93-45e1-99d7-95a2d7cc16c4" width="260" />
+  <img src="https://github.com/user-attachments/assets/df649ef1-5971-4d03-89aa-291859ba57c4" width="260" />
+  <img src="https://github.com/user-attachments/assets/c9fece0c-d54f-4b35-8824-fd186d2edc72" width="260" />
+</p>
+<p align="center">
+  Scramble generation, tracking, and results
+</p>
+
 ## Features
 
 ### Solve Flow
